@@ -1,4 +1,4 @@
-class TwoSum {
+object TwoSum {
 /* This problem is from Leetcode
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -12,5 +12,14 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 
  */
+def main(args: Array[String]): Unit = {
+  val array = Array(2, 7, 11, 14)
+  val target = 9
+
+  Solution.twoSum(array, target)
+
+  print("End of Main")
+}
 
 }
+
