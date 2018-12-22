@@ -22,6 +22,13 @@ object JewelsAndStones {
   The characters in J are distinct.
   */
   def main(args: Array[String]): Unit = {
+    val J = "aA"
+    val S = "aAAbbbb"
+    val numOfJeweledStones = Solution771.numJewelsInStones(J,S)
+
+    println("There are " + numOfJeweledStones +
+      " in my bag of stones, " + S.toString +
+      ", with the identified jewel list of: " + J.toString)
 
 
     print("End of Main")
