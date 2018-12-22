@@ -1,3 +1,5 @@
+package TwoSum
+
 import org.scalatest.Matchers
 
 class SolutionTest extends org.scalatest.FunSuite with Matchers {

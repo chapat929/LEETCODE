@@ -1,3 +1,5 @@
+package TwoSum
+
 object Solution {
 
   def addsToTarget(value1: Int, value2: Int, target: Int): Boolean = {
