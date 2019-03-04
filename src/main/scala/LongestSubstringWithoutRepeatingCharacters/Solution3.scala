@@ -13,7 +13,7 @@ object Solution3 {
       maxSubstringLength = Math.max(maxSubstringLength, candidateSubstring.length)
     }
 
-    maxSubstringLengthgst
+    maxSubstringLength
   }
 
   private def hasRepeatedCharacter(str: String, character: Char): Boolean = {
